@@ -1,0 +1,142 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, rgba(250, 232, 224, 1) 16%, rgba(216, 167, 177, 1) 51%, rgba(239, 124, 142, 1) 81%);
+}
+
+.title {
+    text-align: center;
+    background: #B6E2D3;
+    padding: 20px 20px;
+    border-radius: 12px;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    background: #B6E2D3;
+    box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.333);
+    border-radius: 12px;
+}
+
+.imagen {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-color: #D8A7B1;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.imagen img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 12px;
+}
+
+.nombre {
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #FAE8E0;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+#desc_title {
+    font-size: 1.2em;
+    background-color: #FAE8E0;
+    border-radius: 5px;
+}
+
+.descripcion {
+    text-align: center;
+    border-color: #141414;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    min-height: 60px;
+    border-radius: 12px;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+.botones a {
+    justify-content: center;
+    margin-right: 1px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    padding: 5px 30px;
+    border-radius: 30px;
+    background-color: #B6E2D3;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.botones a:last-child {
+    margin-right: 0;
+}
+
+.botones a svg {
+    color: #ff5858;
+    width: 24px;
+    fill: currentColor;
+}
+
+.botones a:hover {
+    background-color: #D8A7B1;
+    color: white;
+}
+
+.botones a::after {
+    content: "";
+    display: block;
+    height: 18px;
+}
+
+.botones a#perfil:hover::after {
+    content: "Perfil";
+    position: absolute;
+    font-size: 12px;
+    color: #000;
+    white-space: nowrap;
+}
+
+.botones a#dislike:hover::after {
+    content: "Dislike";
+    position: absolute;
+    font-size: 12px;
+    color: #000;
+    white-space: nowrap;
+}
+
+.botones a#like:hover::after {
+    content: "Like";
+    position: absolute;
+    font-size: 12px;
+    color: #000;
+    white-space: nowrap;
+}

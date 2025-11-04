@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, rgba(250, 232, 224, 1) 16%, rgba(216, 167, 177, 1) 51%, rgba(239, 124, 142, 1) 81%);
+}
+
+.title {
+    text-align: center;
+    background: #B6E2D3;
+    padding: 20px 20px;
+    border-radius: 12px;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#buscar{
+    border-radius: 12px;
+}
+#img {
+    border-radius: 50%;
+    transform: translate(0, 40%);
+    max-width: 8%;
+    margin-right: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    background: #B6E2D3;
+    padding: 20px 20px;
+    border-radius: 12px;
+    margin-bottom: 5vh;
+    max-width: 50%;
+}
+
+textarea {
+    resize: none;
+    width: 35%;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    position: relative;
+    left: 40%; 
+    transform: translateX(-50%);
+    top: -20px;
+    margin-left: 10px;
+}
+label{
+    margin-right: 10px;
+}
